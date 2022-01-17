@@ -183,6 +183,7 @@ public class GamView extends AppCompatActivity {
             }
 
             lives = 3;
+            countDestroyedBricks = 0;
         }
         @Override
         public void surfaceCreated(@NonNull SurfaceHolder surfaceHolder) {
